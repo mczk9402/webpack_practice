@@ -1,5 +1,6 @@
-import my from './my.js';
+import './reactApp.jsx'
 import '../stylesheets/main.scss';
 
-console.log("webpack");
-my();
+import Add from './add.ts';
+
+console.log(Add(3,9));
